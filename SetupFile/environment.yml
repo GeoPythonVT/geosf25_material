@@ -1,0 +1,59 @@
+name: geof25b
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  # Core
+  - python=3.11
+  - mamba
+  - pip
+  - ipykernel
+  - jupyterlab>=4
+  - notebook>=7
+  - nbconvert
+  - ipywidgets
+
+  # Scientific stack
+  - numpy
+  - scipy
+  - pandas
+  - xarray
+  - dask
+  - bottleneck
+  - matplotlib
+  - pywavelets
+  - scikit-learn     # added
+  - pydap            # added
+  - statsmodels      # added
+
+  # Geospatial / mapping
+  - cartopy=0.25.*        # current stable; works with modern Python/NumPy
+  - shapely               # pulled in by cartopy, listed for clarity
+  - pyproj                # projection utilities used alongside cartopy
+  - pooch                 # reliable data downloader with checksums
+  - netcdf4
+  - h5netcdf
+  - h5py
+  - cftime
+  - basemap      # added
+  - earthpy      # added
+  - seaborn      # added
+
+  # Quality of life
+  - tqdm
+  - rich
+  - requests
+  - lxml        # added
+  #- pywget      # added   --ERROR
+  
+
+  # --- Optional, heavy GIS (uncomment only if you truly need them) ---
+  - geopandas           # pulls fiona->GDAL; great for vector data
+  - rasterio            # raster read/write (GeoTIFF); implies GDAL
+  # - rioxarray         # xarray + rasterio bridge for rasters
+  # - pyogrio           # faster vector IO alternative to fiona
+  # - pygmt             # Generic Mapping Tools (GMT)
+
+
+
+    
