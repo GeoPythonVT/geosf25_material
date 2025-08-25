@@ -1,7 +1,8 @@
 # Repository: geosf25_material
 Description: Class Notebooks for VT class Geo Data Science with Python, Fall 2025
 
----
+------
+
 # Cloning course material to your computer
 The course material is available in a public repository (no setup or SSH connection necessary). It will be updated regularily.
 
@@ -27,9 +28,11 @@ Alternatively, you can download the material directly from the repositories webs
 https://github.com/GeoPythonVT/geosf25_material
 
 
----
 
-## Setting up your Computer 
+------
+
+
+# Setting up your Computer 
 If you want to use your own computer, instead of the lab computers, install the following softwar and follow respective instructions. 
 
 - Install Python Anaconda, and Bash 
@@ -60,7 +63,7 @@ Launch Jupyter Lab
 jupyter lab
 ```
 
-### 3) Maintenance shortcuts (during the term)
+### 3. Maintenance shortcuts (during the term)
 
 Update to the latest spec (adds/removes to match file):
 ```
@@ -81,7 +84,7 @@ conda env remove -n geof25a
 jupyter kernelspec remove geof25a   # if you registered a kernel
 ```
 
-### 4) Lab-machine tips (common gotchas)
+### 4. Lab-machine tips (common gotchas)
 #> **Permissions:** Env creation is per-user by default; no admin needed. If home directories are redirected/locked down, create by path:
 ```
 conda create -p ~/conda_envs/geof25a python=3.11
