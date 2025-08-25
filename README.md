@@ -30,22 +30,19 @@ https://github.com/GeoPythonVT/geosf25_material
 ---
 
 ## B: Setting up your Computer 
-Part B instructions will set up your GitHub connection with your computer, after you have already created your GitHub account and repository. These include:
+If you want to use your own computer, instead of the lab computers, install the following softwar and follow respective instructions. 
 
 - Install Python Anaconda, and Bash 
 - Create new conda environment and install Python packages
 
-#### 1. Install Anaconda, Bash and Git on your computer (skip this step on the lab computers)
-Follow instructions (depending on your operating system) for installing Bash, Git and Python/Anaconda on this website: https://annajiat.github.io/2021-07-19-colorado-online/
+#### 1. Install Anaconda, and Bash on your computer 
+Follow instructions (depending on your operating system) for installing Bash, and Python/Anaconda.
 
 
-#### 2. Install Python (skip this step on the lab computers) 
+#### 2. Install Python environment with all packages required for this class
 Open the bash terminal/console and execute the following commands one by one, to create a new python environment and install all packages needed for the class. This may take a while and you need to confirm the installation.
 
 ```
-conda update --all
-conda create --name geosf25
-conda activate geosf25
-conda install -c conda-forge boost python=3.9 nb_conda geopandas jupyterlab scipy cartopy scikit-learn basemap statsmodels netcdf4 hdf5 pywget lxml pydap pywavelets seaborn xarray
+(will be provided soon)
 ```
 
